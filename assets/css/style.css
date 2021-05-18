@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family:'proxima-nova', sans-serif;
+  }
+  
+  header {
+      padding: 60px;
+      text-align: center;
+      background: #13293d;
+      background-image: url("assets/images/background.jpg");
+      color: #fff;
+    }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  main {
+    display: flex;
+  }
+  aside {
+    flex: 30%;
+    background-color: #b9c6ae;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+.profile {
+    
+    margin-top: 5px;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    
+  }
+  
+.button:hover {
+    background-color: #555;
+  }
+  
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'proxima-nova', sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 1px;
+    background-color: rgba(240, 248, 255, 0.507);
+    width: 40%;
+    text-align: left;
+    padding-left: 3px;
+  }
+
+  div.portfolio {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.portfolio:hover {
+    border: 4px solid #777;
+  }
+  
+  div.portfolio img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+  
+  /* Tablets - header changes color */
+  @media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    header {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    header{
+      background-color: #8ac4ff;
+    }
+  }
+
+ 
+  
+ 
+  
+
+
+  
